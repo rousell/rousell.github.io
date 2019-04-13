@@ -38,15 +38,17 @@ footer {
     );
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
 svg {
     width: 42px;
-    margin: 8px;
+    margin: 10px;
 }
 
 a:hover #github,
-a:hover #linkedin {
+a:hover #linkedin,
+a:hover #email {
   fill: #475785;
 }
