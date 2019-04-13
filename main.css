@@ -1,0 +1,52 @@
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+img {
+    max-width: 320px;
+    display: block;
+    margin: 5px auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-image:
+    linear-gradient(
+      to right,
+      #fff,
+      rgb(227, 228, 233),
+      #fff
+    );
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+svg {
+    width: 42px;
+    margin: 8px;
+}
+
+a:hover #github,
+a:hover #linkedin {
+  fill: #475785;
+}
